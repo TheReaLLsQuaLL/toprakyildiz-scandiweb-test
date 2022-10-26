@@ -15,7 +15,8 @@ body {
 html,
 body,
 #root,
-.App{
+.App,
+.fullheight{
     height: 100%;
 }
 
@@ -26,4 +27,8 @@ body {
     margin-top: 24px;
     margin-left: 102px;
     margin-right: 102px;
+}
+
+.main {
+    height: calc(100% - 8rem);
 }

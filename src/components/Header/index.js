@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.scss";
+import { Link } from "react-router-dom";
 import Directory from "../Directory";
 import logo from "./../../assets/a-logo.svg";
 
@@ -9,7 +10,9 @@ const Header = (props) => {
       <Directory />
       <div className="wrap">
         <div className="wrap-logo">
-          <img src={logo} alt="website logo"></img>
+          <Link to="/">
+            <img src={logo} alt="website logo"></img>
+          </Link>
         </div>
       </div>
     </header>
