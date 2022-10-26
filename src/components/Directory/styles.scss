@@ -1,0 +1,32 @@
+.directory {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 234px;
+}
+
+.directory-button-women {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+.directory-button-women a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5ECE7B;
+    border-bottom: 1px solid #5ECE7B;
+    padding-bottom: 30px;
+}
+
+.directory-button-other {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.directory-button-other a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D1F22;
+}
